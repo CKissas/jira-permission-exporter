@@ -1,0 +1,12 @@
+base_url: "https://{{INSTANCE}}.atlassian.net"
+email: "{{EMAIL}}"
+api_token: "{{TOKEN}}"
+output_dir: "./output"
+
+steps:
+  permission_schemes: false
+  scheme_projects: false
+  scheme_permissions: false
+  project_role_actors: false
+  final_flat_export: false
+  split_final_flat_export: true
